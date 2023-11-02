@@ -1,0 +1,46 @@
+.title-card {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.title-card:hover {
+    position: relative;
+}
+
+.title-card:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: normal;
+    max-width: 300px;
+}
+/* ... your existing styles ... */
+
+.full-title {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: normal;
+    max-width: 300px;
+    z-index: 2222;  
+}
+

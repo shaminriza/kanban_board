@@ -1,0 +1,15 @@
+.boardColumn {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px; /* or adjust as needed */
+    background-color: #f8f8f8;
+}
+
+.boardColumn h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}

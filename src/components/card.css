@@ -1,0 +1,99 @@
+.card {
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 20px 24px;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 16px 8px;
+    background-color: #fff;
+}
+
+.profile-img {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+
+.card-id {
+    font-size: 12px;
+    color: #888888; 
+    margin-bottom: 8px;
+}
+
+
+.card-title {
+    font-size: 18px; 
+    font-weight: 600; 
+    color: #333; 
+    margin: 8px 0; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85%;
+    position: relative;  
+}
+
+
+.card-title-tooltip {
+    display: none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: normal;
+}
+
+.title-text:hover .card-title-tooltip {
+    display: block;
+}
+
+
+.labels-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.feature-label, .priority-label {
+    font-size: 12px;
+    color: #888888; 
+    background-color: #f5f5f5;
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+
+.icon-alert {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+

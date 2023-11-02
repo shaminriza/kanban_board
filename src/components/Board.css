@@ -1,0 +1,64 @@
+.kanban-board {
+    position: relative;
+    padding-top: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.options {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex; /* To align items horizontally */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.options > * {
+    margin-right: 10px; /* Spacing between dropdown and buttons */
+}
+
+.board-columns {
+    display: flex;
+    gap: 20px;
+}
+.ticket-card {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-card-header {
+    font-weight: bold;
+}
+
+.alert-icon {
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    margin-right: 5px;
+}
+
+.ticket-tag {
+    background-color: #f0f4f8;
+    padding: 3px 8px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.ticket-avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
